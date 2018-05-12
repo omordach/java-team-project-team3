@@ -63,8 +63,8 @@ public class Employees {
     /*Override toString method, we need it for printing collections (array list)*/
     @Override
     public String toString() {
-        return " " + '\'' + "lastName='" + lastName + '\'' +
-                ", position='" + position + '\'' +
-                ", salary=" + salary + '\'';
+        return " " + '\'' + "Last Name = '" + lastName + '\'' +
+                ", Position = '" + position + '\'' +
+                ", Salary = " + salary + '\'';
     }
 }

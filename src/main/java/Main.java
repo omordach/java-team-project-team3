@@ -24,15 +24,15 @@ public class Main {
         /* Creating collection (array  list) with data from parsed json file*/
         List <Employees> employees = objectMapper.readValue(input,
                 typeFactory.constructCollectionType(ArrayList.class, Employees.class));
-        
-        /* Print unsorted sorted Collection (ArrayList) */
-        System.out.println("Unsorted Collection (ArrayList): ");
-        System.out.println();
-        for (Employees unsorted : employees) {
-            System.out.println(unsorted);
-        }
 
-        /* Sorting by Last name */
+//        /* Print unsorted sorted Collection (ArrayList) */
+//        System.out.println("Unsorted Collection (ArrayList): ");
+//        System.out.println();
+//        for (Employees unsorted : employees) {
+//            System.out.println(unsorted);
+//        }
+
+        /* Sorting by Last Name */
         Collections.sort(employees, Employees.LastNameComparator);
 
         /* Print sorted Collection (ArrayList) */
