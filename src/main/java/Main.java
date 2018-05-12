@@ -14,30 +14,28 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException {
+        /* Magic of parsing json file */
         InputStream input = new FileInputStream("src/employees.json");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         objectMapper.enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
         TypeFactory typeFactory = TypeFactory.defaultInstance();
+
+        /* Creating collection (array  list) with data from parsed json file*/
         List <Employees> employees = objectMapper.readValue(input,
                 typeFactory.constructCollectionType(ArrayList.class, Employees.class));
-
-//        System.out.println(employees.get(0).getLastName()); //need just for checking that file parsing works
-
-
-//      Print unsorted sorted Collection (ArrayList)
+        
+        /* Print unsorted sorted Collection (ArrayList) */
         System.out.println("Unsorted Collection (ArrayList): ");
         System.out.println();
         for (Employees unsorted : employees) {
             System.out.println(unsorted);
         }
 
-        // Sorting by Last name
-
+        /* Sorting by Last name */
         Collections.sort(employees, Employees.LastNameComparator);
 
-
-        // Print sorted Collection (ArrayList)
+        /* Print sorted Collection (ArrayList) */
         System.out.println();
         System.out.println("Sorted by Last Name Collection (ArrayList): ");
         System.out.println();
