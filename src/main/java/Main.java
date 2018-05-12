@@ -1,14 +1,14 @@
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -19,14 +19,11 @@ public class Main {
         objectMapper
                 .enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
         TypeFactory typeFactory = TypeFactory.defaultInstance();
-        List<EmployeesDTO> employees = objectMapper.readValue(input,
+        List <EmployeesDTO> employees = objectMapper.readValue(input,
                 typeFactory.constructCollectionType(
                         ArrayList.class, EmployeesDTO.class));
 
-        System.out.println(employees.get(0).getEmployees().getLastName());
-        System.out.println(employees.get(0).getEmployees().getPosition());
-        System.out.println(employees.get(0).getEmployees().getSalary());
-
+        System.out.println(employees.get(1).getLastName());
 
     }
 

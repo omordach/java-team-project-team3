@@ -5,19 +5,39 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class EmployeesDTO {
 
-    private Employees employees;
+    private String lastName;
+    private String position;
+    private int salary;
 
     @JsonCreator
-    public EmployeesDTO(@JsonProperty("employees") Employees employees) {
-        this.employees = employees;
+    public EmployeesDTO(@JsonProperty("last name") String lastName, @JsonProperty("position") String position, @JsonProperty("salary") int salary) {
+        this.lastName = lastName;
+        this.position = position;
+        this.salary = salary;
     }
 
-    public Employees getEmployees() {
-        return employees;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setEmployees(Employees employees) {
-        this.employees = employees;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
 }
