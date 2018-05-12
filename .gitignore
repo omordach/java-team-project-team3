@@ -35,8 +35,8 @@ target/
 .settings/
 .classpath
 .project
-.eml
-.userlibraries
+*.eml
+*.userlibraries
 
 # NetBeans specific
 nbproject/private/
