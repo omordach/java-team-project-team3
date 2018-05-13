@@ -33,35 +33,11 @@ public class Main {
 //        }
 
         /* Sorting by Last Name */
-        Collections.sort(employees, Sorting.LastNameComparator);
+        Collections.sort(employees, Sorting.EmployeesComparator);
 
         /* Print sorted Collection (ArrayList) */
         System.out.println();
-        System.out.println("Collection (ArrayList) sorted by Last Name: ");
-        System.out.println();
-        for (Employees sorted : employees) {
-            System.out.println(sorted);
-
-        }
-
-        /* Sorting by Position */
-        Collections.sort(employees, Sorting.PositionComparator);
-
-        /* Print sorted Collection (ArrayList) */
-        System.out.println();
-        System.out.println("Collection (ArrayList) sorted by Position: ");
-        System.out.println();
-        for (Employees sorted : employees) {
-            System.out.println(sorted);
-
-        }
-
-        /* Sorting by Salary */
-        Collections.sort(employees, Sorting.SalaryComparator);
-
-        /* Print sorted Collection (ArrayList) */
-        System.out.println();
-        System.out.println("Collection (ArrayList) sorted by Salary: ");
+        System.out.println("Collection (ArrayList) sorted by multiple values (1. by last name; 2. by position; 3. by salary): ");
         System.out.println();
         for (Employees sorted : employees) {
             System.out.println(sorted);
