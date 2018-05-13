@@ -31,4 +31,22 @@ public class Sorting {
             //return Position2.compareTo(Position1);
         }
     };
+
+    /*Comparator for sorting the list by salary*/
+    public static Comparator <Employees> SalaryComparator = new Comparator <Employees>() {
+
+        public int compare(Employees s1, Employees s2) {
+
+            int salary1 = s1.getSalary();
+            int salary2 = s2.getSalary();
+
+            /*For ascending order*/
+            return salary1 - salary2;
+
+            /*For descending order*/
+            //return salary2-salary1;
+        }
+
+    };
+
 }

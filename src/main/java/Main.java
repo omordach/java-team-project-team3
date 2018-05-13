@@ -56,5 +56,16 @@ public class Main {
 
         }
 
+        /* Sorting by Salary */
+        Collections.sort(employees, Sorting.SalaryComparator);
+
+        /* Print sorted Collection (ArrayList) */
+        System.out.println();
+        System.out.println("Collection (ArrayList) sorted by Salary: ");
+        System.out.println();
+        for (Employees sorted : employees) {
+            System.out.println(sorted);
+
+        }
     }
 }
