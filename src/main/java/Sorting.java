@@ -13,21 +13,19 @@ public class Sorting {
             int salary1 = s1.getSalary();
             int salary2 = s2.getSalary();
 
-            if (!LastName1.equals(LastName2) ) {
+            if (!LastName1.equals(LastName2)) {
                 /* For ascending order by Last Name */
                 return LastName1.compareTo(LastName2);
 
                 /* For descending order by Last Name */
                 //return LastName2.compareTo(LastName1);
-            }
-            else if (!Position1.equals(Position2) ) {
+            } else if (!Position1.equals(Position2)) {
                 /* For ascending order by Position */
                 return Position1.compareTo(Position2);
 
                 /* For descending order by Position */
                 //return Position2.compareTo(Position1);
-            }
-            else {
+            } else {
                 /* For ascending order by Salary*/
                 return salary1 - salary2;
 

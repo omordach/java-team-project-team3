@@ -3,11 +3,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Employees {
 
-       /*Initialization of fields which we want to get from json file wile parsing*/
+    /*Initialization of fields which we want to get from json file wile parsing*/
     private String lastName;
     private String position;
     private int salary;

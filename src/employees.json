@@ -1,37 +1,37 @@
 [
-        {
-            "last name": "Caron",
-            "position": "Developer",
-            "salary": "7000"
-        },
-        {
-            "last name": "Terry",
-            "position": "Project Manager",
-            "salary": "10750"
-        },
-        {
-            "last name": "Chabris",
-            "position": "Janitor",
-            "salary": "4000"
-        },
-        {
-            "last name": "Rettaroli",
-            "position": "AQA Engineer",
-            "salary": "7500"
-        },
-        {
-            "last name": "Zengilowski",
-            "position": "DevOps",
-            "salary": "6000"
-        },
-        {
-            "last name": "Chabris",
-            "position": "Janitor",
-            "salary": "3000"
-        },
-        {
-            "last name": "Chabris",
-            "position": "CTO",
-            "salary": "35000"
-        }
+  {
+    "last name": "Caron",
+    "position": "Developer",
+    "salary": "7000"
+  },
+  {
+    "last name": "Terry",
+    "position": "Project Manager",
+    "salary": "10750"
+  },
+  {
+    "last name": "Chabris",
+    "position": "Janitor",
+    "salary": "4000"
+  },
+  {
+    "last name": "Rettaroli",
+    "position": "AQA Engineer",
+    "salary": "7500"
+  },
+  {
+    "last name": "Zengilowski",
+    "position": "DevOps",
+    "salary": "6000"
+  },
+  {
+    "last name": "Chabris",
+    "position": "Janitor",
+    "salary": "3000"
+  },
+  {
+    "last name": "Chabris",
+    "position": "CTO",
+    "salary": "35000"
+  }
 ]
