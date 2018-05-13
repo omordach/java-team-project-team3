@@ -33,7 +33,7 @@ public class Main {
 //        }
 
         /* Sorting by Last Name */
-        Collections.sort(employees, Employees.LastNameComparator);
+        Collections.sort(employees, Sorting.LastNameComparator);
 
         /* Print sorted Collection (ArrayList) */
         System.out.println();

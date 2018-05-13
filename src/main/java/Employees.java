@@ -2,25 +2,12 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.Comparator;
+
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Employees {
 
-    /*Comparator for sorting the list by Last Name*/
-    public static Comparator <Employees> LastNameComparator = new Comparator <Employees>() {
-
-        public int compare(Employees s1, Employees s2) {
-            String LastName1 = s1.getLastName().toUpperCase();
-            String LastName2 = s2.getLastName().toUpperCase();
-
-            //ascending order
-            return LastName1.compareTo(LastName2);
-
-        }
-    };
-
-    /*Initialization of fields which we want to get from json file wile parsing*/
+       /*Initialization of fields which we want to get from json file wile parsing*/
     private String lastName;
     private String position;
     private int salary;
@@ -63,8 +50,8 @@ public class Employees {
     /*Override toString method, we need it for printing collections (array list)*/
     @Override
     public String toString() {
-        return " " + '\'' + "Last Name = '" + lastName + '\'' +
+        return " " + "Last Name = '" + lastName + '\'' +
                 ", Position = '" + position + '\'' +
-                ", Salary = " + salary + '\'';
+                ", Salary = " + salary;
     }
 }
