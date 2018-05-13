@@ -1,4 +1,6 @@
 # Team3
+[![Build Status](https://travis-ci.org/omordach/java-team-project-team3.svg?branch=master)](https://travis-ci.org/omordach/java-team-project-team3) [![BCH compliance](https://bettercodehub.com/edge/badge/omordach/java-team-project-team3?branch=master)](https://bettercodehub.com/)
+ 
  - Олег Мордач (omordach)
  - Володя Бішко
  - Євген-Олег Лаба (Mamay42)
