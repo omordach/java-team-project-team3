@@ -23,5 +23,10 @@
             "last name": "Chabris",
             "position": "Janitor",
             "salary": "3000"
+        },
+        {
+            "last name": "Chabris",
+            "position": "CTO",
+            "salary": "35000"
         }
 ]
