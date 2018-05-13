@@ -16,4 +16,19 @@ public class Sorting {
             //return LastName2.compareTo(LastName1);
         }
     };
+
+    /*Comparator for sorting the list by Position*/
+    public static Comparator <Employees> PositionComparator = new Comparator <Employees>() {
+
+        public int compare(Employees s1, Employees s2) {
+            String Position1 = s1.getPosition().toUpperCase();
+            String Position2 = s2.getPosition().toUpperCase();
+
+            //ascending order
+            return Position1.compareTo(Position2);
+
+            //descending order
+            //return Position2.compareTo(Position1);
+        }
+    };
 }

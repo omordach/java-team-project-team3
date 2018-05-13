@@ -37,7 +37,19 @@ public class Main {
 
         /* Print sorted Collection (ArrayList) */
         System.out.println();
-        System.out.println("Sorted by Last Name Collection (ArrayList): ");
+        System.out.println("Collection (ArrayList) sorted by Last Name: ");
+        System.out.println();
+        for (Employees sorted : employees) {
+            System.out.println(sorted);
+
+        }
+
+        /* Sorting by Position */
+        Collections.sort(employees, Sorting.PositionComparator);
+
+        /* Print sorted Collection (ArrayList) */
+        System.out.println();
+        System.out.println("Collection (ArrayList) sorted by Position: ");
         System.out.println();
         for (Employees sorted : employees) {
             System.out.println(sorted);
