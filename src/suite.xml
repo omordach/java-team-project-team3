@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing" verbose="10" data-provider-thread-count="1" configfailurepolicy="continue">
+
+    <test name="TestParsing">
+        <classes>
+            <class name="TestParsing">
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestSorting">
+        <classes>
+            <class name="TestSorting">
+            </class>
+        </classes>
+    </test>
+
+</suite>
