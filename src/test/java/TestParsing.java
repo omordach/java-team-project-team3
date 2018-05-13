@@ -1,7 +1,7 @@
 import org.testng.annotations.Test;
 
-
 public class TestParsing {
+
     @Test
     public void testParsing() {
 
