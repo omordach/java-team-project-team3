@@ -1,5 +1,5 @@
 # Team3
-[![Build Status](https://travis-ci.org/omordach/java-team-project-team3.svg?branch=master)](https://travis-ci.org/omordach/java-team-project-team3) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/?branch=master) 
+[![Build Status](https://travis-ci.org/omordach/java-team-project-team3.svg?branch=master)](https://travis-ci.org/omordach/java-team-project-team3) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/?branch=master) [![BCH compliance](https://bettercodehub.com/edge/badge/omordach/java-team-project-team3?branch=master)](https://bettercodehub.com/)
  
  - Олег Мордач (omordach)
  - Володя Бішко
