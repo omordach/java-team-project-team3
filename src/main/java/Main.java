@@ -25,7 +25,7 @@ public class Main {
         List <Employees> employees = objectMapper.readValue(input,
                 typeFactory.constructCollectionType(ArrayList.class, Employees.class));
 
-//        /* Print unsorted sorted Collection (ArrayList) */
+//        /* Print unsorted Collection (ArrayList) */
 //        System.out.println("Unsorted Collection (ArrayList): ");
 //        System.out.println();
 //        for (Employees unsorted : employees) {
