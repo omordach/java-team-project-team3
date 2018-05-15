@@ -6,6 +6,7 @@
   1. Settings -> Plugins -> Browse Repositories -> Search "lombok" -> Install
   2. Settings -> Search "annotation processors" -> enable "Enable annotation processing" checkbox
 
+**Team3**
  - Олег Мордач ([omordach](https://github.com/omordach))
  - Володя Бішко ([BVolodya](https://github.com/BVolodya))
  - Євген-Олег Лаба ([Mamay42](https://github.com/Mamay42))
