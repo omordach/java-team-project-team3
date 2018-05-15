@@ -1,3 +1,9 @@
+package Main;
+
+import Parsing.Employee;
+import Parsing.EmployeesReader;
+import Sorting.Sorting;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -5,21 +11,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         EmployeesReader employeesReader = new EmployeesReader();
-        /* Creating collection (array  list) with data from parsed json file*/
-        List<Employee> employees = employeesReader.createList("src/employees.json");
 
-        /* Print unsorted Collection (ArrayList) */
-//        System.out.println("Unsorted Collection (ArrayList): ");
-//        System.out.println();
-//        for (Employee unsorted : employees) {
-//            System.out.println(unsorted);
-//        }
+        /* Creating collection (array  list) with data from parsed json file*/
+        List <Employee> employees = employeesReader.createList("src/employees.json");
 
         /* Sorting by Last Name */
         if (employees != null) {
-            Collections.sort(employees, Sorting.EmployeesComparator);
+            Collections.sort(employees, Sorting.EMPLOYEES_COMPARATOR);
 
             /* Print sorted Collection (ArrayList) */
             System.out.println();

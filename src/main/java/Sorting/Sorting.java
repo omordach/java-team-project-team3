@@ -1,9 +1,12 @@
+package Sorting;
+
+import Parsing.Employee;
 import java.util.Comparator;
 
 public class Sorting {
 
     /*Comparator for sorting the list by multiple values*/
-    public static Comparator<Employee> EmployeesComparator = new Comparator<Employee>() {
+    public static final Comparator <Employee> EMPLOYEES_COMPARATOR = new Comparator <Employee>() {
 
         public int compare(Employee s1, Employee s2) {
             String lastName1 = s1.getLastName();
@@ -12,6 +15,7 @@ public class Sorting {
             String position2 = s2.getPosition();
             int salary1 = s1.getSalary();
             int salary2 = s2.getSalary();
+
             /* If value == null it will be sorted in the end of list  */
             if (null == lastName1) {
                 return 1;
