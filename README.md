@@ -1,10 +1,16 @@
 # Team3
 [![Build Status](https://travis-ci.org/omordach/java-team-project-team3.svg?branch=master)](https://travis-ci.org/omordach/java-team-project-team3) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/omordach/java-team-project-team3/?branch=master) [![BCH compliance](https://bettercodehub.com/edge/badge/omordach/java-team-project-team3?branch=master)](https://bettercodehub.com/)
- 
- - Олег Мордач (omordach)
- - Володя Бішко
- - Євген-Олег Лаба (Mamay42)
- - Оксана Красницька
+
+#### Налаштування проекту
+**Вам потрібно завантажити плагін Lombok:**
+  1. Settings -> Plugins -> Browse Repositories -> Search "lombok" -> Install
+  2. Settings -> Search "annotation processors" -> enable "Enable annotation processing" checkbox
+
+**Team3**
+ - Олег Мордач ([omordach](https://github.com/omordach))
+ - Володя Бішко ([BVolodya](https://github.com/BVolodya))
+ - Євген-Олег Лаба ([Mamay42](https://github.com/Mamay42))
+ - Оксана Красницька ([oksana-krasnytska](https://github.com/oksana-krasnytska))
 
 #### Завдання "Java Team Project"
 Задано текстовий файл з інформацією про працівника. Кожний запис містить прізвище працівника, посаду та зп. 
